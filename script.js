@@ -18,7 +18,7 @@ const countriesandflags =()=>{
     <div class="col mt-5"  key=${index}>
     <div class="card">
     <div class="card-body">
-    <p> country Name: ${item.name}</p>
+    <p class="dom"> country Name: ${item.name}</p>
     <p> <img src="${item.flag}" alt="" width=50></p>
     <p> country ISO2: ${item.iso2}</p>
     <p> country ISO3: ${item.iso3}</p>
